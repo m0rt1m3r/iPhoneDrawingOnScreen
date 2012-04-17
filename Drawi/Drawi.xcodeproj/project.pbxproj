@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF29563152E3E5F00969127 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF29562152E3E5F00969127 /* UIKit.framework */; };
+		2DF29565152E3E5F00969127 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF29564152E3E5F00969127 /* Foundation.framework */; };
+		2DF29567152E3E5F00969127 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF29566152E3E5F00969127 /* CoreGraphics.framework */; };
+		2DF2956D152E3E5F00969127 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DF2956B152E3E5F00969127 /* InfoPlist.strings */; };
+		2DF2956F152E3E5F00969127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF2956E152E3E5F00969127 /* main.m */; };
+		2DF29573152E3E5F00969127 /* SBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF29572152E3E5F00969127 /* SBAppDelegate.m */; };
+		2DF29576152E3E5F00969127 /* SBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF29575152E3E5F00969127 /* SBViewController.m */; };
+		2DF29579152E3E5F00969127 /* SBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF29577152E3E5F00969127 /* SBViewController.xib */; };
+		2DF29581152E3EA500969127 /* Canvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF29580152E3EA500969127 /* Canvas.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DF2955E152E3E5F00969127 /* Drawi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF29562152E3E5F00969127 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DF29564152E3E5F00969127 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DF29566152E3E5F00969127 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DF2956A152E3E5F00969127 /* Drawi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawi-Info.plist"; sourceTree = "<group>"; };
+		2DF2956C152E3E5F00969127 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DF2956E152E3E5F00969127 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DF29570152E3E5F00969127 /* Drawi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drawi-Prefix.pch"; sourceTree = "<group>"; };
+		2DF29571152E3E5F00969127 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
+		2DF29572152E3E5F00969127 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
+		2DF29574152E3E5F00969127 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
+		2DF29575152E3E5F00969127 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
+		2DF29578152E3E5F00969127 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SBViewController.xib; sourceTree = "<group>"; };
+		2DF2957F152E3EA500969127 /* Canvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Canvas.h; sourceTree = "<group>"; };
+		2DF29580152E3EA500969127 /* Canvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Canvas.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF2955B152E3E5F00969127 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF29563152E3E5F00969127 /* UIKit.framework in Frameworks */,
+				2DF29565152E3E5F00969127 /* Foundation.framework in Frameworks */,
+				2DF29567152E3E5F00969127 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF29553152E3E5E00969127 = {
+			isa = PBXGroup;
+			children = (
+				2DF29568152E3E5F00969127 /* Drawi */,
+				2DF29561152E3E5F00969127 /* Frameworks */,
+				2DF2955F152E3E5F00969127 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF2955F152E3E5F00969127 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2955E152E3E5F00969127 /* Drawi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF29561152E3E5F00969127 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DF29562152E3E5F00969127 /* UIKit.framework */,
+				2DF29564152E3E5F00969127 /* Foundation.framework */,
+				2DF29566152E3E5F00969127 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DF29568152E3E5F00969127 /* Drawi */ = {
+			isa = PBXGroup;
+			children = (
+				2DF29571152E3E5F00969127 /* SBAppDelegate.h */,
+				2DF29572152E3E5F00969127 /* SBAppDelegate.m */,
+				2DF29574152E3E5F00969127 /* SBViewController.h */,
+				2DF29575152E3E5F00969127 /* SBViewController.m */,
+				2DF29577152E3E5F00969127 /* SBViewController.xib */,
+				2DF29569152E3E5F00969127 /* Supporting Files */,
+				2DF2957F152E3EA500969127 /* Canvas.h */,
+				2DF29580152E3EA500969127 /* Canvas.m */,
+			);
+			path = Drawi;
+			sourceTree = "<group>";
+		};
+		2DF29569152E3E5F00969127 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DF2956A152E3E5F00969127 /* Drawi-Info.plist */,
+				2DF2956B152E3E5F00969127 /* InfoPlist.strings */,
+				2DF2956E152E3E5F00969127 /* main.m */,
+				2DF29570152E3E5F00969127 /* Drawi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF2955D152E3E5F00969127 /* Drawi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF2957C152E3E5F00969127 /* Build configuration list for PBXNativeTarget "Drawi" */;
+			buildPhases = (
+				2DF2955A152E3E5F00969127 /* Sources */,
+				2DF2955B152E3E5F00969127 /* Frameworks */,
+				2DF2955C152E3E5F00969127 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drawi;
+			productName = Drawi;
+			productReference = 2DF2955E152E3E5F00969127 /* Drawi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF29555152E3E5E00969127 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2DF29558152E3E5E00969127 /* Build configuration list for PBXProject "Drawi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2DF29553152E3E5E00969127;
+			productRefGroup = 2DF2955F152E3E5F00969127 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF2955D152E3E5F00969127 /* Drawi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF2955C152E3E5F00969127 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2956D152E3E5F00969127 /* InfoPlist.strings in Resources */,
+				2DF29579152E3E5F00969127 /* SBViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF2955A152E3E5F00969127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF2956F152E3E5F00969127 /* main.m in Sources */,
+				2DF29573152E3E5F00969127 /* SBAppDelegate.m in Sources */,
+				2DF29576152E3E5F00969127 /* SBViewController.m in Sources */,
+				2DF29581152E3EA500969127 /* Canvas.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DF2956B152E3E5F00969127 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF2956C152E3E5F00969127 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DF29577152E3E5F00969127 /* SBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF29578152E3E5F00969127 /* en */,
+			);
+			name = SBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DF2957A152E3E5F00969127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2DF2957B152E3E5F00969127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF2957D152E3E5F00969127 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawi/Drawi-Prefix.pch";
+				INFOPLIST_FILE = "Drawi/Drawi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DF2957E152E3E5F00969127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drawi/Drawi-Prefix.pch";
+				INFOPLIST_FILE = "Drawi/Drawi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF29558152E3E5E00969127 /* Build configuration list for PBXProject "Drawi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF2957A152E3E5F00969127 /* Debug */,
+				2DF2957B152E3E5F00969127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF2957C152E3E5F00969127 /* Build configuration list for PBXNativeTarget "Drawi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF2957D152E3E5F00969127 /* Debug */,
+				2DF2957E152E3E5F00969127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DF29555152E3E5E00969127 /* Project object */;
+}
